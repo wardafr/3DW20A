@@ -9,7 +9,7 @@ var $puces = $('.bullets .entypo-record		');
 		        $jours.hide();
 		$('.wrapper').fadeIn('slow', function(){
 		        $jours.first().fadeIn('slow');
-		        $puces.removeClass('active').addClass('active');
+		        $puces.removeClass('active').first.addClass('active');
 	    });
 	        }, 2000);
 		
